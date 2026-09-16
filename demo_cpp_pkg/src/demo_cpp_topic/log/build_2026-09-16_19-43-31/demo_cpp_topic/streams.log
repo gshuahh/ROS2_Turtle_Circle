@@ -1,0 +1,70 @@
+[0.005s] Invoking command in '/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.078s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.133s] -- Detecting C compile features
+[0.133s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.188s] -- Detecting CXX compiler ABI info - done
+[0.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.191s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.323s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.339s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.342s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.346s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.378s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.378s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.430s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.443s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.469s] -- Looking for pthread.h
+[0.523s] -- Looking for pthread.h - found
+[0.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.584s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.584s] -- Found Threads: TRUE  
+[0.611s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.624s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.663s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.705s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.705s] -- Configured cppcheck include dirs: 
+[0.705s] -- Configured cppcheck exclude dirs and/or files: 
+[0.705s] -- Added test 'lint_cmake' to check CMake code style
+[0.706s] -- Added test 'uncrustify' to check C / C++ code style
+[0.706s] -- Configured uncrustify additional arguments: 
+[0.706s] -- Added test 'xmllint' to check XML markup files
+[0.707s] -- Configuring done
+[0.712s] -- Generating done
+[0.714s] -- Build files have been written to: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic
+[0.720s] Invoked command in '/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic
+[0.721s] Invoking command in '/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic -- -j4 -l4
+[0.755s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[2.888s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[3.007s] [100%] Built target turtle_circle
+[3.015s] Invoked command in '/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic -- -j4 -l4
+[3.023s] Invoking command in '/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic
+[3.029s] -- Install configuration: ""
+[3.029s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[3.029s] -- Set runtime path of "/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[3.029s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[3.029s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[3.029s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[3.030s] -- Installing: /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[3.030s] Invoked command in '/home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/guozi/chapt2/demo_cpp_pkg/src/demo_cpp_topic/build/demo_cpp_topic
